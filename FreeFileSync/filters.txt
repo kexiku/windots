@@ -2,16 +2,16 @@
 *
 
 # Exclude:
-\System Volume Information\
 \$Recycle.Bin\
-\RECYCLE?\
 \Recovery\
-*\thumbs.db
+\RECYCLE?\
+\System Volume Information\
 *\desktop.ini
+*\thumbs.db
+\.cache
 \.gitconfig
 \.lesshst
-\.temp
-\.vscode
+\.vscode*
 \AppData
 \Application Data
 \Contacts
@@ -20,7 +20,6 @@
 \Documents\My*
 \Downloads
 \Favorites
-\Kisunka
 \Links
 \Local Settings
 \My Documents
@@ -28,11 +27,13 @@
 \ntuser*
 \NTUSER.DAT*
 \PrintHood
+\Projects
 \Recent
 \Saved Games
 \Searches
 \SendTo
 \Start Menu
+\Sys*
 \Templates
 \Torrents
 \windots
