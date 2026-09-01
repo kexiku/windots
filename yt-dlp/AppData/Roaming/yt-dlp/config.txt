@@ -1,1 +1,1 @@
--P 'C:\Users\nuska\Videos'
+-P '%USERPROFILE%\Videos' --ffmpeg-location '%LOCALAPPDATA%\Programs\yt-dlp\ffmpeg-master-latest-win64-gpl\bin'
