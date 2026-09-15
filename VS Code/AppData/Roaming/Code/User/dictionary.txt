@@ -1,4 +1,5 @@
 allclear
+autofetch
 bson
 dconf
 distro
