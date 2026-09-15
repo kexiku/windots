@@ -1,4 +1,5 @@
 {
+  "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "chat.disableAIFeatures": true,
   "cSpell.customDictionaries": {
@@ -10,23 +11,52 @@
     },
   },
   "cSpell.diagnosticLevel": "Hint",
-  "cSpell.language": "en",
+  "cSpell.language": "en, ru, fr",
+  "cSpell.showInRuler": false,
   "editor.lightbulb.enabled": "off",
   "editor.mouseWheelScrollSensitivity": 3,
-  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelZoom": false,
   "editor.occurrencesHighlight": "off",
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      { // italic comments
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
   "editor.unicodeHighlight.includeComments": false,
   "editor.unicodeHighlight.includeStrings": false,
   "explorer.compactFolders": false,
+  "explorer.expandSingleFolderWorkspaces": false,
   "extensions.autoCheckUpdates": false,
   "extensions.autoUpdate": "off",
+  "files.exclude": {
+    ".directory": true // directory's metadata file for KDE Plasma
+  },
+  "git.autofetch": false,
+  "git.blame.editorDecoration.template": "${subject} (${authorName})",
+  "git.blame.statusBarItem.template": "${authorName}",
   "git.openRepositoryInParentFolders": "never",
+  "js.suggest.autoImports": false,
+  "network.meteredConnection": "off",
+  "terminal.integrated.mouseWheelZoom": false,
   "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "off",
+    "arguments": "off",
+    "unknown": "off"
+  },
   "window.commandCenter": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Dark Modern",
   "workbench.iconTheme": "a-file-icon-vscode",
