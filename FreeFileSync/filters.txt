@@ -9,6 +9,7 @@
 *\desktop.ini
 *\thumbs.db
 \.cache
+\.deno
 \.gitconfig
 \.lesshst
 \.vscode*
@@ -18,8 +19,8 @@
 \Cookies
 \Desktop
 \Documents\My*
-\Downloads
 \Favorites
+\Intel*
 \Links
 \Local Settings
 \My Documents
