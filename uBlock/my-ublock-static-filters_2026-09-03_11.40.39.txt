@@ -56,8 +56,11 @@ www.youtube.com###toast > .yt-notification-action-renderer.style-scope
 
 ! ------------------------------------------------------------------------------------------------------------------------/
 
-! Hide games bullshit
+! Hide top news, playables games and other bullshit
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(5)
 
 ! ------------------------------------------------------------------------------------------------------------------------/
 ! 📋 OTHER FILTERS
