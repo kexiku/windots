@@ -10,6 +10,7 @@ catppuccin
 cloze
 dconf
 distro
+Equestria
 everforest
 Excretus
 felipeftn
@@ -23,6 +24,7 @@ gsettings
 hornswaddle
 kanagawa
 Kexi
+kexiku
 Lilex
 linebreak
 literata
@@ -39,6 +41,7 @@ oleg
 opsz
 pacman
 pkgs
+playables
 plusplus
 rosé
 rpms
